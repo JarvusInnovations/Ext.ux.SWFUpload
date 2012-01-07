@@ -12,6 +12,7 @@
  
 Ext.define('Ext.ux.SWFUpload', {
 	extend: 'Ext.Component'
+	,requires: ['Ext.util.Cookies']
 
 	,config: {
 		autoStart: true
